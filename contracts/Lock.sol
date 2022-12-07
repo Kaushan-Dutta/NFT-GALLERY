@@ -176,8 +176,4 @@ contract Lock is Ownable,ERC721URIStorage{
     
 //     function withdrawMoney() external onlyOwner{
 //         address payable to = payable(msg.sender);
-//         to.transfer(address(this).balance);
-//     }
-// }
-//PRIVATE_KEY=0x8b1eb2a57c12241feef83537f8e38c2ec5a26d7438d82f3babff2f7f460bb64b
-//REACT_APP_CONTRACT=0xeB1Bd2bE1a226FE9493849fd2da818EB4B9925ba
+//         
