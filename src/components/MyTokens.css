@@ -1,0 +1,51 @@
+
+.myToken .container .itemBlock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.myToken .container .itemBlock .item{
+    
+    box-shadow: 2px 2px 3px grey;
+    width: 320px;
+    background-color: rgb(204, 228, 150);
+    text-align: left;
+    border-radius: 5px;
+}
+.myToken .container .itemBlock .item .image img{
+    width: 100%;
+    height: 100%;
+}
+.myToken .container .itemBlock .item .contents .nft-name{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.myToken .container .itemBlock .item .contents .nft-name .random-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: -8px;
+}
+.myToken .container .itemBlock .item .contents .nft-attributes {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.myToken .container .itemBlock .item .contents .nft-attributes   button{
+    border-radius: 3px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.myToken .container .itemBlock .item .contents{
+    display: flex;
+    flex-direction: column;
+}
